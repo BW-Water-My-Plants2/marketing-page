@@ -47,31 +47,32 @@ html {
 }
 /* END CSS RESET */
 
-/* HEADER LOGO */
-.hlogo {
-	display:inline-flex;
-	font-size:4rem;
-	font-family:hind;
-	font-weight:700;
-	color:#314936;
-	padding:2rem;
-}
-a.hlogonamea, a.hlogonamesa:link, a.hlogonamesa:visited {
-	text-decoration:none;
-	font-size:4rem;
-	font-family:hind;
-	font-weight:700;
-	color:#314936;
+/* START HEADER */
+.hlogoimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10rem;
+    padding-top:3rem;
 }
 .hlogoname {
+    text-align:center;
+    font-size:4rem;
+    color:white;
+    text-decoration:none;
+    font-family: Montserrat;
+    font-weight:700;
+}
+.hlogo {
+    background-color:#314936;
+    height:20rem;
+}
+a.hlogo:active, a.hlogoname:link, a.hlogoname:visited {
+    text-decoration:none;
+}
 
-	padding-left:1rem;
-	padding-top:.8rem;
-	letter-spacing:1.3px;	
-}
-.hlogoimg {
-	height:5rem;
-}
+
+
 /* FOOTER TOP SECTION */
 .footertop {
 	height:25rem;
@@ -187,102 +188,6 @@ a.footernavlinks, a.footernavlinks:visited, a.footernavlinks:link {
 	padding:.4rem;
 }
 
-
-/* START SECTION 1  */
-.sec1header {
-    text-align:center;
-	font-size:4rem;
-	font-family:hind;
-	font-weight:700;
-	letter-spacing:1.3px;
-    color: #314936;
-    padding-top:5rem;
-    background-color:#eedfd2;
-}
-.sec1subh {
-    text-align:center;
-	font-size:1.5rem;
-	font-family:Montserrat;
-	font-weight:200;
-	letter-spacing:1.3px;
-    color: #314936;
-    background-color:#eedfd2;
-    padding-bottom:2rem;
-}
-.sdev1 {
-    padding-top:5rem;
-    display:inline-flex;
-    width:65%;
-    margin:auto;
-    padding-left:20vw;
-}
-.devimg {
-    border-radius:50px;
-    width:15vw;
-}
-
-h3.devnameL {
-    padding-top:5rem;
-    padding-left:1rem;
-    text-align:right;
-	font-size:2.5rem;
-	font-family:Montserrat;
-	font-weight:700;
-	letter-spacing:1.3px;
-	color: #FF7f50;
-}
-h3.devnameR {
-    padding-top:5rem;
-    padding-right:1rem;
-    text-align:left;
-	font-size:2.5rem;
-	font-family:Montserrat;
-	font-weight:700;
-	letter-spacing:1.3px;
-	color: #FF7f50;
-}
-p.devintroR {
-    padding-top:2rem;
-    padding-right:1rem;
-    text-align:left;
-	font-size:1.5rem;
-	font-family:Montserrat;
-	font-weight:200;
-	letter-spacing:1.3px;
-    color: #314936;
-}
-p.devintroL {
-    padding-top:2rem;
-    padding-left:1rem;
-    text-align:right;
-    margin-right:none;
-	font-size:1.5rem;
-	font-family:Montserrat;
-	font-weight:200;
-	letter-spacing:1.3px;
-    color: #314936;
-}
-h4.devroleL {
-    padding-top:1rem;
-    padding-left:1rem;
-    text-align:right;
-	font-size:1rem;
-	font-family:Montserrat;
-	font-weight:700;
-	letter-spacing:1.3px;
-	color: #314936;
-}
-h4.devroleR {
-    padding-top:1rem;
-    padding-right:1rem;
-    text-align:left;
-	font-size:1rem;
-	font-family:Montserrat;
-	font-weight:700;
-	letter-spacing:1.3px;
-	color: #314936;
-}
-
 /* BUTTON */
 .button {
     padding: 1.3vw 4vw;
@@ -294,4 +199,72 @@ h4.devroleR {
 	font-weight: 700;
     letter-spacing: 0.5px;
     border-radius: 5px;
+}
+
+
+/* START SECTION 1,2,3,4  */
+
+.sec1, .sec2, .sec3, .sec4 {
+    padding-top:8rem;
+    display:inline-flex;
+    text-align:center;
+    width:70%;
+    margin:auto;
+    padding-left:15vw;
+}
+.sec1img, .sec2img, .sec3img, .sec4img {
+    width:90%;
+}
+
+.sec1l, .sec2l, .sec4l {
+    width:50%;
+    font-size:2rem;
+    text-align:center;
+    margin:auto;
+    font-family:Montserrat;
+    font-weight:200;
+}
+.sec1r, .sec2r, .sec3r, .sec4r {
+    width:50%;
+    font-size:2rem;
+    text-align:center;
+    margin:auto;
+    font-family:Montserrat;
+    font-weight:200;
+}
+
+.sec3l {
+    width:50%;
+    font-size:2rem;
+    text-align:center;
+    margin:auto;
+    font-family:Montserrat;
+    font-weight:200;
+}
+.sec5 {
+    text-align:center;
+}
+
+.footerslogan {
+    font-family:hind;
+    font-size:4rem;
+    padding-top:1rem;
+}
+.sec5p {
+    font-family:hind;
+    font-size:1.5rem;
+    padding-top:1rem;
+}
+
+.sec5t {
+    font-family:hind;
+    font-size:1.5rem;
+    padding-top:5rem;
+}
+
+.ourmissionheaders {
+	font-size:3rem;
+	padding-bottom: 3rem;
+	font-family:Montserrat;
+	font-weight:700;
 }
