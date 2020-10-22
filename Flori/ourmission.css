@@ -268,3 +268,101 @@ a.footernavlinks, a.footernavlinks:visited, a.footernavlinks:link {
 	font-family:Montserrat;
 	font-weight:700;
 }
+
+
+@media (max-width:800px) {
+	body {
+		border:2px solid green;
+	}
+	.ourmissionheaders {
+		font-size: 2rem;
+	}
+	.footerslogan {
+		font-size:2.3rem;
+	}
+	.sec5t {
+		font-size:1.2rem;
+	}
+	.sec5p {
+		font-size:1.2rem;
+	}
+	.sec1p {
+		font-size:1.5rem;
+	}
+	.footerLtext {
+		font-size:2.2rem;
+	}
+	.button {
+		font-size:1rem;
+	}
+	a.footernavlinks, a.footernavlinks:visited, a.footernavlinks:link {
+		font-size:1rem;
+	}
+	.liheaders {
+		font-size:1.2rem;
+	}
+	.flogoimg {
+		padding-left:1rem;
+	}
+	div.footerL-a {
+		padding-left:.5rem;
+	}
+	.footerB-L {
+		width:70%;
+	}
+}
+
+@media (max-width: 500px) {
+
+	.hlogoimg {
+		width:8rem;
+	}
+	a.hlogoname {
+		font-size:3rem;
+	}
+	.ourmissionheaders {
+		font-size: 2rem;
+	}
+	.sec1p {
+		font-size:1.5rem;
+	}
+	.sec5t {
+		font-size:1.2rem;
+	}
+	.footerslogan {
+		font-size:2.5rem;
+	}
+	.sec5p {
+		font-size:1.2rem;
+	}
+	.footerLtext {
+		font-size:1.5rem;	
+	}
+	.footerL-a {
+		padding-left:1rem;
+	}
+	.button {
+		font-size:1rem;
+	}
+	.liheaders {
+		font-size:1rem;
+	}
+	a.footernavlinks, a.footernavlinks:visited, a.footernavlinks:link {
+		font-size:1rem;
+	}
+	.flogoname {
+		font-size:3rem;
+	}
+	.footerB-L {
+		width:60%;
+	}
+	.flogoimg {
+		padding-left:1rem;
+	}
+	.footertop {
+		height:20rem;
+	}
+	.footerbottom {
+		height:10rem;
+	}
+}

@@ -295,3 +295,78 @@ h4.devroleR {
     letter-spacing: 0.5px;
     border-radius: 5px;
 }
+/* START MEDIA QUERY 500PX */
+@media (max-width: 500px) {
+h3.devnameR {
+	padding-top:1rem;
+	margin-top:1rem;
+}
+h3.devnameL {
+	padding-top:1rem;
+	margin-top:1rem;
+}
+a.hlogonamea {
+	font-size:3rem;
+}
+
+.sec1header {
+	font-size:3rem;
+}
+.sec1subh {
+	font-size:1rem;
+}
+.footerLtext {
+	font-size:1.6rem;
+}
+.button {
+	font-size:1rem;
+}
+div.footerL-a {
+	padding-left:1rem;
+	margin-left:none;
+}
+.liheaders {
+	font-size:1rem;
+	padding-left:none;
+}
+a.footernavlinks, a.footernavlinks:visited, a.footernavlinks:link {
+	font-size:1rem;
+}
+.footerB-L {
+	width:60%;
+}
+.flogoname {
+	font-size:3.3rem;
+}
+.flogoimg {
+	height:4rem;
+	padding-left:3rem;
+}
+}
+
+/* END MEDIA QUERY 500PX */
+
+/* START MEDIA QUERY 800PX */
+
+@media (max-width: 800px) {
+div.footerL-a {
+	padding-left:1.5rem;
+	margin-left:none;
+}
+.footerLtext {
+	font-size:2.5rem;
+}
+a.footernavlinks, a.footernavlinks:visited, a.footernavlinks:link {
+	font-size:1.3rem;
+}
+.liheaders {
+	font-size:1.8rem;
+}
+.footerB-L {
+	width:70%;
+}
+.flogoname {
+	font-size:3rem;
+}
+}
+
