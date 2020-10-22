@@ -96,7 +96,7 @@ a.hlogonamea, a.hlogonamesa:link, a.hlogonamesa:visited {
 .footerL-a {
 	width:50%;
 	padding-top:8rem;
-	padding-left:4rem;
+	padding-left:2rem;
 }
 .footerButton {
 	font-family:Monsterrat;
@@ -152,7 +152,7 @@ a.footernavlinks, a.footernavlinks:visited, a.footernavlinks:link {
 	flex-wrap:wrap;
 }
 .footerB-L {
-	width:85%;
+	width:70%;
 }
 .footerB-R {
 	width:15%;
@@ -173,7 +173,7 @@ a.footernavlinks, a.footernavlinks:visited, a.footernavlinks:link {
 }
 .flogoimg {
 	height:4rem;
-	padding-left:3rem;
+	padding-left:1.5rem;
 }
 .smlogo {
 	padding-top:3.5rem;
@@ -218,12 +218,12 @@ a.footernavlinks, a.footernavlinks:visited, a.footernavlinks:link {
 }
 .devimg {
     border-radius:50px;
-    width:15vw;
+    width:30rem;
 }
 
 h3.devnameL {
     padding-top:5rem;
-    padding-left:1rem;
+    padding-left:23vw;
     text-align:right;
 	font-size:2.5rem;
 	font-family:Montserrat;
@@ -233,7 +233,7 @@ h3.devnameL {
 }
 h3.devnameR {
     padding-top:5rem;
-    padding-right:1rem;
+    padding-right:23vw;
     text-align:left;
 	font-size:2.5rem;
 	font-family:Montserrat;
@@ -295,72 +295,33 @@ h4.devroleR {
     letter-spacing: 0.5px;
     border-radius: 5px;
 }
-/* START MEDIA QUERY 500PX */
-@media (max-width: 500px) {
-h3.devnameR {
-	padding-top:1rem;
-	margin-top:1rem;
-}
-h3.devnameL {
-	padding-top:1rem;
-	margin-top:1rem;
-}
-a.hlogonamea {
-	font-size:3rem;
-}
-
-.sec1header {
-	font-size:3rem;
-}
-.sec1subh {
-	font-size:1rem;
-}
-.footerLtext {
-	font-size:1.6rem;
-}
-.button {
-	font-size:1rem;
-}
-div.footerL-a {
-	padding-left:1rem;
-	margin-left:none;
-}
-.liheaders {
-	font-size:1rem;
-	padding-left:none;
-}
-a.footernavlinks, a.footernavlinks:visited, a.footernavlinks:link {
-	font-size:1rem;
-}
-.footerB-L {
-	width:60%;
-}
-.flogoname {
-	font-size:3.3rem;
-}
-.flogoimg {
-	height:4rem;
-	padding-left:3rem;
-}
-}
-
-/* END MEDIA QUERY 500PX */
 
 /* START MEDIA QUERY 800PX */
-
+@media (max-width:1024px) {
+	.devimg {
+		width:25rem;
+	}
+}
 @media (max-width: 800px) {
+	.sdev1{
+		padding-left:12vw;
+	}
+.devimg {
+	width:20rem;
+}
+
 div.footerL-a {
-	padding-left:1.5rem;
+	padding-left:.5rem;
 	margin-left:none;
 }
 .footerLtext {
-	font-size:2.5rem;
+	font-size:2.2rem;
 }
 a.footernavlinks, a.footernavlinks:visited, a.footernavlinks:link {
-	font-size:1.3rem;
+	font-size:1.2rem;
 }
 .liheaders {
-	font-size:1.8rem;
+	font-size:1.2rem;
 }
 .footerB-L {
 	width:70%;
@@ -368,5 +329,64 @@ a.footernavlinks, a.footernavlinks:visited, a.footernavlinks:link {
 .flogoname {
 	font-size:3rem;
 }
+.button {
+	font-size:1rem;
 }
+}
+
+/* START MEDIA QUERY 500PX */
+@media (max-width: 500px) {
+	
+	h3.devnameR {
+		padding-top:1rem;
+		margin-top:1rem;
+	}
+	h3.devnameL {
+		padding-top:1rem;
+		margin-top:1rem;
+	}
+	a.hlogonamea {
+		font-size:3rem;
+	}
+	
+	.sec1header {
+		font-size:3rem;
+	}
+	.sec1subh {
+		font-size:1rem;
+	}
+	.footerLtext {
+		font-size:1.6rem;
+	}
+	.button {
+		font-size:1rem;
+	}
+	div.footerL-a {
+		padding-left:1rem;
+		margin-left:none;
+	}
+	.liheaders {
+		font-size:1rem;
+		padding-left:none;
+	}
+	a.footernavlinks, a.footernavlinks:visited, a.footernavlinks:link {
+		font-size:1rem;
+	}
+	.footerB-L {
+		width:60%;
+	}
+	.flogoname {
+		font-size:3.3rem;
+	}
+	.flogoimg {
+		height:4rem;
+		padding-left:1rem;
+	}
+	.sdev1 {
+		padding-left:2vw;
+	}
+	}
+	
+	/* END MEDIA QUERY 500PX */
+	
 

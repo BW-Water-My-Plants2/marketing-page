@@ -210,7 +210,11 @@ a.footernavlinks, a.footernavlinks:visited, a.footernavlinks:link {
     text-align:center;
     width:70%;
     margin:auto;
-    padding-left:15vw;
+	padding-left:15vw;
+}
+.sec1p {
+		line-height: 1.8;
+	  
 }
 .sec1img, .sec2img, .sec3img, .sec4img {
     width:90%;
@@ -268,6 +272,14 @@ a.footernavlinks, a.footernavlinks:visited, a.footernavlinks:link {
 	font-family:Montserrat;
 	font-weight:700;
 }
+@media (max-width:1024px) {
+	.ourmissionheaders {
+		font-size: 2rem;
+	}
+	.sec1p {
+		font-size:1.5rem;
+	}
+}
 
 
 @media (max-width:800px) {
@@ -321,10 +333,10 @@ a.footernavlinks, a.footernavlinks:visited, a.footernavlinks:link {
 		font-size:3rem;
 	}
 	.ourmissionheaders {
-		font-size: 2rem;
+		font-size: 1.6rem;
 	}
 	.sec1p {
-		font-size:1.5rem;
+		font-size:1.2rem;
 	}
 	.sec5t {
 		font-size:1.2rem;
