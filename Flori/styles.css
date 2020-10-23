@@ -104,7 +104,7 @@ h2 {
     padding-top: 20%;
     font-family: 'Hind';
     font-size: 5rem;
-    color: #1B2A21;
+    color: #262730;
     letter-spacing: 1.3px;
 }
 #s1L p {
@@ -152,10 +152,10 @@ h2 {
     width: 54%;
 }
 .s2-txt h3 {
-    padding-top: 14%;
+    padding-top: 6%;
     font-size: 4rem;
     font-family: 'Hind';
-    color: #314936;
+    color: #262730;
 }
 .s2-txt p {
     padding-top: 6%;
@@ -164,12 +164,29 @@ h2 {
     font-size: 2rem;
     color: #262730;
     line-height: 140%;
+    padding-bottom: 5%;
 }
+
+.s2-txt a {
+    font-family: Montserrat;
+    font-weight: bold;
+    text-decoration: none;
+    color: #d09d7b;
+    font-size: 1.7rem;
+}
+
+.s2-txt a:hover {
+    text-decoration: underline;
+}
+
+
+
 .s2-img {
     width: 36%;
 }
 .s2-img img {
     width: 100%;
+    border-radius: 10px;
 }
 
 /* Section 2 Button */
@@ -185,7 +202,7 @@ h2 {
 /* Section 3 */
 #section-3 {
     display: flex;
-    background-color: #EEDFD2;
+    background-color: #e7e9ea;
     justify-content: space-between;
     margin-top: 200px;
     padding: 7% 5%;
@@ -227,7 +244,7 @@ h2 {
 	font-family:hind;
 	font-weight:700;
 	letter-spacing:1.3px;
-	color: #314936;
+	color: #262730;
 }
 .iglinks {
 	display:flex;
@@ -442,7 +459,8 @@ a.footernavlinks, a.footernavlinks:visited, a.footernavlinks:link {
 	}
 	.s2-txt p {
 		text-align: center;
-	}
+    }
+
     .s2-img {
         width: 70%;
     }
