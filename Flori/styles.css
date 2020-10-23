@@ -404,6 +404,7 @@ a.footernavlinks, a.footernavlinks:visited, a.footernavlinks:link {
     .s2-txt p {
         font-size: 1.8rem;
     }
+    
 }
 
 @media (max-width: 800px){
@@ -485,6 +486,26 @@ a.footernavlinks, a.footernavlinks:visited, a.footernavlinks:link {
     #final-testimonial-p {
         padding-bottom: 70px;
     }
+    /* Footer */
+    div.footerL-a {
+        padding-left:.5rem;
+        margin-left:none;
+    }
+    .footerLtext {
+        font-size:2.2rem;
+    }
+    a.footernavlinks, a.footernavlinks:visited, a.footernavlinks:link {
+        font-size:1.2rem;
+    }
+    .liheaders {
+        font-size:1.2rem;
+    }
+    .footerB-L {
+        width:70%;
+    }
+    .flogoname {
+        font-size:3rem;
+    }
 }
 
 @media (max-width: 500px){
@@ -506,4 +527,29 @@ a.footernavlinks, a.footernavlinks:visited, a.footernavlinks:link {
     .s2-txt h3 {
         font-size: 3.2rem;
     }
+    /* Footer */
+    .footerLtext {
+		font-size:1.6rem;
+	}
+	div.footerL-a {
+		padding-left:1rem;
+		margin-left:none;
+	}
+	.liheaders {
+		font-size:1rem;
+		padding-left:none;
+	}
+	a.footernavlinks, a.footernavlinks:visited, a.footernavlinks:link {
+		font-size:1rem;
+	}
+	.footerB-L {
+		width:60%;
+	}
+	.flogoname {
+		font-size:3.3rem;
+	}
+	.flogoimg {
+		height:4rem;
+		padding-left:1rem;
+	}
 }
