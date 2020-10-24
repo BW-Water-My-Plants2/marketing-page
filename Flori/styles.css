@@ -405,6 +405,16 @@ a.footernavlinks, a.footernavlinks:visited, a.footernavlinks:link {
         font-size: 1.8rem;
     }
     
+    .iglinks {
+        display:flex;
+        flex-wrap:wrap;
+        padding: 2rem;
+    }
+    .igimg {
+        width: 10rem;
+        flex: 20%;
+        padding: 1rem;
+    }
 }
 
 @media (max-width: 800px){
@@ -505,6 +515,9 @@ a.footernavlinks, a.footernavlinks:visited, a.footernavlinks:link {
     }
     .flogoname {
         font-size:3rem;
+    }
+    .igimg {
+        width:8rem;
     }
 }
 
